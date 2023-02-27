@@ -1,5 +1,5 @@
 //your code here
-const display = document.getElementById('display');
+const display = document.getElementById('calc');
 const buttons = Array.from(document.getElementsByClassName('button'));
 buttons.map( button => {
     button.addEventListener('click', (e) => {
